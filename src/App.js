@@ -11,18 +11,20 @@ import {
 import Home from './views/Home';
 import About from './views/About';
 import Contact from './views/Contact';
-import Joke from './Components/Joke';
 
 //import components
 import Header from './Components/Header';
 import Footer from './Components/Footer';
+
+//import styles
+//import "./App.css";
 
 //App
 function App() {
 
   return (
     //Parent element
-    <div>
+    <div className="h-full">
 
       {/*Router*/}
       <Router>

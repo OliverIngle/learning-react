@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.wiget-container {
+    @apply flex flex-row items-center;
+}
+
+.widget-content {
+    @apply border-solid border-4 w-3/4 p-2 m-3 rounded-lg flex-grow
+}
+
+.contact-info {
+    @apply border-solid border-4 p-2 rounded-lg flex justify-evenly items-center w-full
+}
+
+.widget-next-content-button {
+    @apply m-3 rounded-lg flex text-xl border-4 flex-grow self-stretch justify-center items-center
+}
+
+body {
+    height: 100%;
+}
